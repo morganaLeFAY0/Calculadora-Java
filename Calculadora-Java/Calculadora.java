@@ -5,6 +5,11 @@ public class Calculadora {
         return a + b;
     }
 
+    public static void
+    main(String[] args){
+        System.out.println("Resultado: " + somar(10, 5));
+    }
+
     public static double
     subtrair (double a, double b) {
         return a - b;
